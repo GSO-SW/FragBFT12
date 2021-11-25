@@ -31,6 +31,7 @@ namespace ITFragBFTKlassenBibliothek
             Console.WriteLine("------------------------------------------------------------------------------------\n" +
                               "                          >>> Bereich Binär zu Dezimal <<<\n" +
                               "------------------------------------------------------------------------------------\n\n");
+            //Hallo Angelo, hier sind die Änderungen deines Entwicklers.
             redo:
             Console.WriteLine("Eingabe: hauptmenü\t->\tzurück zum Hauptmenü");
             Console.WriteLine("Eingabe: zu Dezimal\t->\tum von Binär zu Dezimal umzurechnen");
