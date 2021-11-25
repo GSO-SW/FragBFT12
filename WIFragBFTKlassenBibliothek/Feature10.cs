@@ -11,6 +11,7 @@ namespace WIFragBFTKlassenBibliothek
         internal static void Feature10Funcion1()
         {
             Console.WriteLine("Feature10");
+            //Hallo Sergey, hier sind die Änderungen des Entwicklers.
         }
     }
 }
