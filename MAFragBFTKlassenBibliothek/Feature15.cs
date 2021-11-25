@@ -11,6 +11,7 @@ namespace MAFragBFTKlassenBibliothek
         internal static void Feature15Funcion1()
         {
             Console.WriteLine("Feature15");
+            //Hallo Haqe, hier sind die Änderungen des Entwicklers.
         }
     }
 }
