@@ -27,7 +27,7 @@ namespace ETFragBFTKlassenBibliothek
 
                 case "1":
                     Console.Clear();
-                    //ich bin der beste
+                    Widerstand();
                     break;
 
                 case "2":
@@ -51,15 +51,51 @@ namespace ETFragBFTKlassenBibliothek
 
 
 
-
-
-
-
-
-
-
             }
 
         }
+        public static void Widerstand()
+        {
+            Console.WriteLine("Wiederstandsberechnung eines Leiters");
+
+            Console.WriteLine("Formel des Wiederstands:   R=p*l/A");
+
+            Console.WriteLine(
+            "(S) Silber:. . . . . . . . .{0,10}\n" +
+            "(k) Kupfer:. . . . . . . . .{1,10}\n" +
+            "(G) Gold:. . . . . . . . . .{2,10}\n" +
+            "(A) Aluminium:. . . . . . . {3,10}\n" +
+            "(Z) Zink:. . . . . . . . . .{4,10}\n" +
+            "(M) Messing:. . . . . . . . {5,10}\n" +
+            "(E) Eisen: . . . . . . . . .{6,10}\n" +
+            "(P) Platin:. . . . . . . . .{7,10}\n" +
+            "(Zi) Zinn: . . . . . . . . .{8,10}\n" +
+            "(B) Blei:. . . . . . . . . .{9,10}\n" +
+            "(Ko Kohle:. . . . . . . . . {10,10}\n",
+            0.016, 0.018, 0.022, 0.028, 0.06, 0.07, 0.1, 0.106, 0.11, 0.208, 66.667);
+
+            Console.WriteLine("Bitte geben sie ihr Material ein");
+            Console.ReadLine();
+
+            Console.WriteLine("Bitte geben sie ihre Länge an");
+
+
+
+        }
+
+        public static void Kondensator()
+        {
+
+
+
+        }
+
+        public static void Spule()
+        {
+
+
+
+        }
+
     }
 }

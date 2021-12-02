@@ -14,11 +14,7 @@ namespace ETFragBFTKlassenBibliothek
 
 
             {
-                int value;
-                if (int.TryParse(eingabeString, out value))
-                {
-                    /* Eingabe erfolgreich */
-                }
+
                 
 
                 Console.WriteLine
